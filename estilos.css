@@ -37,8 +37,6 @@ del logo, ni siquiera el tamaño*/
     height: auto; 
 }
 
-
-
 nav ul {
     list-style: none;
     display: flex;
