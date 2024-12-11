@@ -1,4 +1,5 @@
-/* Reset básico */
+/* Reset básico. Esto lo ha hecho ChatGPT porque no me estaba quedando bien la pagina, le pedi que me ayudara con alguna cosa
+y me hizo eso. No entiendo para nada como funciona, pero ahora si lo borro queda mal la pagina. Asi que ahi ha quedado. */
 * {
     margin: 0;
     padding: 0;
@@ -148,7 +149,7 @@ main {
     background-color: #0056b3;
 }
 
-/* Pie de página */
+/* Pie de pagina */
 footer {
     text-align: center;
     padding: 10px;
