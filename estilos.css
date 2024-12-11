@@ -11,6 +11,9 @@ body {
     color: #333;
     background-color: #f4f4f4;
     padding: 10px;
+    background: url('imagenes/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #000000; 
 }
 
 /* Cabecera */
@@ -23,8 +26,6 @@ header {
     padding: 10px 20px;
 }
 
-/* He hecho lo que he podido para moverlo a la esquina derecha, incluso con chatgpt pero no se por que no consigue se modifique la imagen 
-del logo, ni siquiera el tamaño*/
 .logo {
     position: absolute; 
     top: 0; 
@@ -35,6 +36,11 @@ del logo, ni siquiera el tamaño*/
 .logo img {
     width: 50px; 
     height: auto; 
+}
+
+.detalle {
+    color: #f4f4f4;
+
 }
 
 nav ul {
@@ -87,6 +93,17 @@ main {
 }
 
 .destacados .tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.contenido-listado {
+    margin-top: 20px;
+}
+
+.contenido-listado .tarjetas {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
