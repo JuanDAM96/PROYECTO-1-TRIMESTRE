@@ -1,5 +1,4 @@
-/* Reset básico. Esto lo ha hecho ChatGPT porque no me estaba quedando bien la pagina, le pedi que me ayudara con alguna cosa
-y me hizo eso. No entiendo para nada como funciona, pero ahora si lo borro queda mal la pagina. Asi que ahi ha quedado. */
+/* Reset en toda la pagina para obviar margenes padding... por defecto */
 * {
     margin: 0;
     padding: 0;
@@ -41,8 +40,13 @@ header {
 
 .detalle {
     color: #f4f4f4;
-
 }
+
+.detalle a {
+    color:#f4f4f4;
+}
+
+
 /* Menu navegacion */
 nav ul {
     list-style: none;
@@ -70,9 +74,11 @@ main {
     margin: 20px 0;
 }
 
+/* Introduccion */
 .introduccion {
     text-align: center;
     margin-bottom: 20px;
+    color: #f4f4f4;
 }
 
 .introduccion .boton {
@@ -88,7 +94,7 @@ main {
 .introduccion .boton:hover {
     background-color: #0056b3;
 }
-
+/* Videojuegos destacados (Home) */
 .destacados {
     margin-top: 20px;
 }
@@ -100,8 +106,16 @@ main {
     justify-content: center;
 }
 
+.destacados h2 {
+    color: #f4f4f4;
+}
+/* Contenido con todos los juegos */
 .contenido-listado {
     margin-top: 20px;
+}
+
+.contenido-listado h2{
+    color: #f4f4f4;
 }
 
 .contenido-listado .tarjetas {
@@ -147,6 +161,10 @@ main {
 
 .tarjeta .boton:hover {
     background-color: #0056b3;
+}
+/* Contacto */
+.formulario-contacto {
+    color: #f4f4f4;
 }
 
 /* Pie de pagina */
