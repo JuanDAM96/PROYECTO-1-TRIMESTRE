@@ -5,7 +5,7 @@ y me hizo eso. No entiendo para nada como funciona, pero ahora si lo borro queda
     padding: 0;
     box-sizing: border-box;
 }
-
+/* Cuerpo */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -26,7 +26,7 @@ header {
     color: #fff;
     padding: 10px 20px;
 }
-
+/* Logo */
 .logo {
     position: absolute; 
     top: 0; 
@@ -43,7 +43,7 @@ header {
     color: #f4f4f4;
 
 }
-
+/* Menu navegacion */
 nav ul {
     list-style: none;
     display: flex;
@@ -110,7 +110,7 @@ main {
     gap: 20px;
     justify-content: center;
 }
-
+/* Tarjetas */
 .tarjeta {
     background: #fff;
     border: 1px solid #ccc;
